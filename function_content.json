@@ -1,0 +1,58 @@
+{
+    "normal_source": [
+        "read", "fread", "sscanf", "__isoc99_sscanf", "fscanf", "scanf", 
+        "getline", "gets", "fgets", "ioctl", "ungetc", "_IO_getc", "fgetc"
+    ],
+    "nvram_source": [
+        "acosNvramConfig_get", "acosNvramConfig_readAsInt", "acosNvramConfig_read", "nvram_bufget",
+        "nvram_load", "bcm_nvram_get", "envram_get", "envram_get_value", "nvram_default_get",
+        "nvram_get_double", "nvram_get_ex", "nvram_get_file", "nvram_get_func", "nvram_get_int",
+        "nvram_get_r", "nvram_getall", "nvram_pf_get", "nvram_pf_get_int", "nvram_safe_get", "um_nvram_get"
+    ],
+    "file_source": [
+        "vos_get_value_from_file", "GetIniFileValue", "SLIBCFileGetKeyValue", "cgiGetFile", "cgiGetFiles",
+        "download_file", "download_file_from_servers", "getStatsFromFile", "json_load_file",
+        "load_l7setting_file", "read_l7info_from_file", "read_whole_file", "vos_get_value_from_file",
+        "xmlReadFile", "safe_fread", "f_read", "f_read_string"
+    ],
+    "message_source": [
+        "MSG_ReceiveMessage", "recv", "recvfrom", "recvmsg", "api_recv_R3_msg", "nl_recv"
+    ],
+    "env_source": [
+        "envram_get", "envram_get_value", "getenv"
+    ],
+    "other_source": [
+        "flash_read", "APKG_ReadAllXml", "BIO_read", "DNSwitchReadConfigData", "FTP_Read_XML",
+        "HWINFO_ReadConfigData", "LANReadConfigData", "LANReadDNS", "LANReadHTTP_NOTIFY", "NTPReadData",
+        "PEM_read_RSAPrivateKey", "PEM_read_RSAPublicKey", "PEM_read_RSA_PUBKEY", "PEM_read_X509",
+        "QOSReadConfigData", "ReadAceSch", "ReadAdminConf", "ReadEventConf", "ReadEvtSch", "ReadFromDaemon",
+        "ReadFromDaemonEx", "ReadMotConf", "ReadSMTPCConf", "ReadUPnPConf", "ReadWebConf",
+        "Read_Xml_Node_Content", "SMBReadConfigData", "SSL_read", "SYSINFO_ReadConfigData", "SysLogReadData",
+        "WLANReadConfigData", "Web_AcConfig_Get", "cfgRead", "readUnUsedVolumeInfoXml", "read_ddns_config",
+        "read_disk_data", "readVolumeInfoXml", "readv", "readlink", "rtsp_readconf", "readdir", "readdir64",
+        "read_ipv6addr", "read_ipv6defaultgateway", "readPowerOnSchedule", "BIO_gets", "dbGetStr",
+        "dxmlGetStr", "glue_util_ioctl", "wl_ioctl", "xmlNodeGetContent", "AUD_GetConf", "IMG_GetConf",
+        "agApi_fwBlkServGetCnt", "agApi_fwBlkServGetCnt_Session2", "agApi_fwServiceGetCnt",
+        "agApi_fwServiceGetCnt_Session2", "getcwd", "LIB_Save_Load_Iso_Image_Config",
+        "SSL_CTX_load_verify_locations", "LIB_Load_Iso_Image_Vpath", "SSL_load_error_strings",
+        "SynoCgiLoadInCookies", "cfg_lldp_txOverloadStatus_get", "cfg_snmp_config_reload_get",
+        "cgiFormFileRename_config_reload", "json_load", "json_loads", "json_load_lock",
+        "json_non_wait_load_lock", "lldp_portTlvOverload_get", "load_ac_mac_list", "load_iqos_list",
+        "mxmlLoadString", "pan_crls_load_crl", "pan_ocsp_load", "pan_store_load_config",
+        "pan_mp_cert_load_key_encrypted", "uci_load", "xmldbc_reload", "cfg_stp_mstConfigRevision_get",
+        "pan_store_get_config", "get_first_configured_connected_wan_unit",
+        "pan_store_satellite_info_restore_config", "pan_store_satellite_info_copy_config",
+        "sysd_configure", "vlan_config", "pan_store_device_blacklist_restore_config",
+        "pan_store_device_blacklist_copy_config"
+    ],
+    "input_functions": [
+        "read", "fread", "sscanf", "__isoc99_sscanf", "fscanf", "scanf", 
+        "getline", "gets", "fgets", "ioctl", "ungetc", "_IO_getc", "fgetc"
+    ],
+    "buchong_function": [
+        "strcat", "memmove", "snprintf"
+    ],
+    "dangerous_functions": [
+        "strcpy", "strcat", "strncpy", "memmove", "snprintf", "memcpy"
+    ]
+}
