@@ -1,0 +1,316 @@
+snprintf-135211420 -> main-134537530
+snprintf-135211420 -> main-134537530
+snprintf-135211420 -> bfd_peer_enter-134543068
+snprintf-135211420 -> bfd_peer_enter-134543068
+snprintf-135211420 -> bfd_peer_enter-134543068
+snprintf-135211420 -> bfd_peer_enter-134543068
+snprintf-135211420 -> bfd_peer_enter-134543068
+snprintf-135211420 -> bfd_no_peer-134544237
+snprintf-135211420 -> bfd_no_peer-134544237
+snprintf-135211420 -> bfd_no_peer-134544237
+snprintf-135211420 -> bfd_no_peer-134544237
+snprintf-135211420 -> bfd_peer_rx-134545822
+snprintf-135211420 -> bfd_peer_tx-134546075
+snprintf-135211420 -> bfd_peer_echo_interval-134547554
+snprintf-135211420 -> bfd_peer_echo_transmit_interval-134547874
+snprintf-135211420 -> bfd_peer_echo_receive_interval-134548177
+snprintf-135211420 -> cp_debug-134550562 -> bp_bfd_echo_in-134562604 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bp_bfd_echo_in-134562604 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bp_bfd_echo_in-134562604 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bp_bfd_echo_in-134562604 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> cp_debug-134550562 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_up-134574776 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_free-134580800
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_session_remove_manual-134580818
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_single_hop_destroy-134581786
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_multi_hop_destroy-134581806
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfdd_sessions_disable_vrf-134588286 -> bfd_vrf_disable-134582395
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> _bfd_session_register_dplane-134595204
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_ifp_destroy-134597752
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_recvtimer_cb-134575375
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_echo_recvtimer_cb-134575413
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_read-134596098
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_up-134574776 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_free-134580800
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_session_remove_manual-134580818
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_single_hop_destroy-134581786
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_multi_hop_destroy-134581806
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfdd_sessions_disable_vrf-134588286 -> bfd_vrf_disable-134582395
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> _bfd_session_register_dplane-134595204
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_ifp_destroy-134597752
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_recvtimer_cb-134575375
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_echo_recvtimer_cb-134575413
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_read-134596098
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_up-134574776 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_free-134580800
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_session_remove_manual-134580818
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_single_hop_destroy-134581786
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_multi_hop_destroy-134581806
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfdd_sessions_disable_vrf-134588286 -> bfd_vrf_disable-134582395
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> _bfd_session_register_dplane-134595204
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_ifp_destroy-134597752
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_recvtimer_cb-134575375
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_echo_recvtimer_cb-134575413
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_read-134596098
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_up-134574776 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_free-134580800
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_session_remove_manual-134580818
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_single_hop_destroy-134581786
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_multi_hop_destroy-134581806
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfdd_sessions_disable_vrf-134588286 -> bfd_vrf_disable-134582395
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> _bfd_session_register_dplane-134595204
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_ifp_destroy-134597752
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_recvtimer_cb-134575375
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_echo_recvtimer_cb-134575413
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_read-134596098
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_up-134574776 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_free-134580800
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _bfd_session_remove_manual-134580818
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_single_hop_destroy-134581786
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> bfd_session_destroy-134581598 -> bfdd_bfd_sessions_multi_hop_destroy-134581806
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_session_free-134579801 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfdd_sessions_disable_vrf-134588286 -> bfd_vrf_disable-134582395
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> _bfd_session_register_dplane-134595204
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_session_disable-134575281 -> bfd_ifp_destroy-134597752
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_recvtimer_cb-134575375
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bfd_echo_recvtimer_cb-134575413
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_dn-134574938 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_state_handler-134575451 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_recv_cb-134575757
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> config_add-134580606
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> ptm_bfd_sess_new-134580161 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bs_to_string-134553871 -> bs_registrate-134579951 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bs_to_string-134553871 -> ptm_bfd_sess_del-134580633 -> config_del-134580773
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_read-134596098
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> _display_peer_counter_iter-134583033
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> _display_peer_counter-134582770 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bs_to_string-134553871 -> bfd_dplane_handle_message-134594391 -> bfd_dplane_expect-134595514 -> bfd_dplane_update_session_counters-134596667 -> __display_peer_counters_json-134583112 -> _display_peer_counter_json_iter-134584091
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> bs_to_string-134553871 -> _ptm_bfd_session_del.constprop.0-134599334 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_replay-134599907
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zebra_connected-134600219
+snprintf-135211420 -> bs_to_string-134553871 -> pcn_free-134599483 -> pc_free-134599838 -> bfdd_zclient_stop-134600341 -> sigterm_handler-134573460
+snprintf-135211420 -> _find_peer_or_error-134567911 -> bfd_show_peer-134568759
+snprintf-135211420 -> _find_peer_or_error-134567911 -> bfd_clear_peer_counters-134569509
+snprintf-135211420 -> _find_peer_or_error-134567911 -> bfd_show_peer_counters-134583360
+snprintf-135211420 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_single_hop_create-134581567
+snprintf-135211420 -> bfd_session_create-134580896 -> bfdd_bfd_sessions_multi_hop_create-134581581
+snprintf-135211420 -> bfd_profile_magic.constprop.0-134587367 -> bfd_profile-134546601
+snprintf-135211420 -> no_bfd_profile_magic.constprop.0-134587520 -> no_bfd_profile-134546746
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_register-134599033 -> bfdd_replay-134599907
+snprintf-135211420 -> debug_printbpc-134596976 -> bfdd_dest_deregister-134599641 -> bfdd_replay-134599907

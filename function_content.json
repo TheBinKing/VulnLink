@@ -52,6 +52,9 @@
     "buchong_function": [
         "strcat", "memmove", "snprintf"
     ],
+    "string_stackoverflow":[
+        "strcpy_s", "_strcpy_s", "wcscpy_s", "_wcscpy_s", "_mbscpy_s", "mbscpy_s", "_mbscpy_s_l", "mbscpy_s_l"
+    ],
     "dangerous_functions": [
         "strcpy", "strcat", "strncpy", "memmove", "snprintf", "memcpy"
     ]
