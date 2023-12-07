@@ -1,0 +1,415 @@
+[
+    {
+        "name": "Format String",
+        "function_names":[
+            "printf",
+            "printk",
+            "vprintf",
+            "scanf",
+            "vscanf",
+            "nslog",
+            "wprintf",
+            "vwprintf",
+            "vwscanf",
+            "vscanf_s",
+            "vwscanf_s",
+            "vscprintf",
+            "vscprintf_l",
+            "vscwprintf",
+            "vscwprintf_l",
+            "vscprintf_p",
+            "vscprintf_p_l",
+            "vscwprintf_p",
+            "vscwprintf_p_l",
+            "vcprintf",
+            "vcprintf_l",
+            "vcwprintf",
+            "vcwprintf_l",
+            "vcprintf_p",
+            "vcprintf_p_l",
+            "vcwprintf_p",
+            "vcwprintf_p_l",
+            "vcwprintf_s",
+            "vcwprintf_s_l",
+            "vprintf_l",
+            "vwprintf_l",
+            "vprintf_p",
+            "vprintf_p_l",
+            "vwprintf_p",
+            "vwprintf_p_l",
+            "vprintf_s",
+            "vprintf_s_l",
+            "vwprintf_s",
+            "vwprintf_s_l"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[0].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Format String",
+        "function_names":[
+            "wsprintf",
+            "wsprintfw",
+            "wsprintfa",
+            "fprintf",
+            "sprintf",
+            "vsprintf",
+            "vfprintf",
+            "sscanf",
+            "fscanf",
+            "vsscanf",
+            "vfscanf",
+            "fwprintf",
+            "vfwprintf",
+            "vfprintf_l",
+            "vfwprintf_l",
+            "asprintf",
+            "vfprintf_p",
+            "vfprintf_p_l",
+            "vfwprintf_p",
+            "vfwprintf_p_l",
+            "vfprintf_s",
+            "vfprintf_s_l",
+            "vfwprintf_s",
+            "vfwprintf_s_l",
+            "vasprintf",
+            "vfwscanf",
+            "vfscanf_s",
+            "vfwscanf_s",
+            "vsprintf_l",
+            "vsprintf_like",
+            "vswprintf",
+            "vsprintf_s",
+            "vswprintf_s",
+            "vswscanf",
+            "vsscanf_s",
+            "vswscanf_s",
+            "__wprintf_chk",
+            "__vwprintf_chk",
+            "__printf_chk",
+            "__vprintf_chk"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[1].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Format String",
+        "function_names":[
+            "vsnprintf",
+            "snprintf",
+            "vswprintf",
+            "swprintf",
+            "vsnprintf_l",
+            "vsnwprintf",
+            "vsnwprintf_l",
+            "vsnprintf_s",
+            "vsnwprintf_s",
+            "vswprintf_l",
+            "vsprintf_p",
+            "vsprintf_p_l",
+            "vswprintf_p",
+            "vswprintf_p_l",
+            "vsprintf_s",
+            "vsprintf_s_l",
+            "vswprintf_s",
+            "vswprintf_s_l",
+            "__asprintf_chk", 
+            "__dprintf_chk", 
+            "__fprintf_chk",
+            "__fwprintf_chk", 
+            "__obstack_vprintf_chk", 
+            "__obstack_printf_chk", 
+            "__vasprintf_chk",
+            "__vdprintf_chk", 
+            "__vfwprintf_chk",
+            "__vfprintf_chk" 
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[2].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Format String",
+        "function_names":[
+            "vsnprintf_s",
+            "vsnprintf_s_l",
+            "vsnwprintf_s",
+            "vsnwprintf_s_l",
+            "__sprintf_chk", 
+            "__vsprintf_chk", 
+            "_stdio_common_vsprintf"
+            
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[3].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Format String",
+        "function_names":[
+            "__snprintf_chk", 
+            "__swprintf_chk", 
+            "__vswprintf_chk", 
+            "__vsnprintf_chk"
+            
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[4].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Format String",
+        "function_names":[
+            "objc_msgsend"
+            
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"('appendformat:' in param[1].string_value().lower() and not param[2].is_constant()) or ('stringbyappendingformat:' in param[1].string_value().lower() and not param[2].is_constant()) or ('stringwithformat:' in param[1].string_value().lower() and not param[2].is_constant()) or ('raise:format:' in param[1].string_value().lower() and not param[3].is_constant())",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "strcpy",
+            "wcscpy",
+            "mbscpy",
+            "lstrcpya",
+            "lstrcpyw",
+            "strcat",
+            "wcscat",
+            "mbscat",
+            "lstrcata",
+            "lstrcatw"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[1].is_constant() and not param[1].used_in_call_after(['strlen'])",
+            "Medium":"False",
+            "Low": "not param[1].is_constant()"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "strncpy",
+            "lstrcpyna",
+            "lstrcpynw",
+            "strncat",
+            "memcpy",
+            "wmemcpy",
+            "memmove",
+            "wmemmove"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[2].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "strcpy_s",
+            "wcscpy_s",
+            "mbscpy_s",
+            "mbscpy_s_l",
+            "strcat_s",
+            "wcscat_s",
+            "mbscat_s",
+            "mbscat_s_l"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"False",
+            "Medium":"not param[2].is_constant()",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "gets"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"True",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "scanf"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"'%s' in param[0].string_value()",
+            "Medium":"False",
+            "Low": "True"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "fscanf",
+            "sscanf",
+            "sprintf",
+            "vsprintf",
+            "vsprintf_like"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"any([(not param[i+1].used_in_call_before(['strlen']) and not param[i+1].is_constant()) for i in range(len(param[1].string_value().split('%'))) if param[1].string_value().split('%')[i].startswith('s')])",
+            "Medium":"any([not param[i+1].is_constant() for i in range(len(param[1].string_value().split('%'))) if param[1].string_value().split('%')[i].startswith('s')])",
+            "Low": "True"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "memcpy_s",
+            "wmemcpy_s",
+            "memmove_s",
+            "wmemmove_s"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"False",
+            "Medium":"not param[1].is_constant() and not param[3].is_constant()",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Buffer Overflow",
+        "function_names":[
+            "snprintf",
+            "vsnprintf"
+            
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"False",
+            "Medium":"not param[1].is_constant() and '%s' in param[2].string_value()",
+            "Low": "not param[1].is_constant()"
+        }
+    },
+    {
+        "name": "Command Injection",
+        "function_names":[
+            "system",
+            "popen",
+            "wpopen",
+            "execl",
+            "execlp", 
+            "execle", 
+            "execv",
+            "execvp", 
+            "execvpe"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[0].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Unchecked Return Value of *scanf",
+        "function_names":[
+            "_isoc99_scanf",
+            "fscanf",
+            "scanf",
+            "sscanf",
+            "vfscanf",
+            "vfscanf_s",
+            "vfwscanf",
+            "vfwscanf_s",
+            "vscanf",
+            "vscanf_s",
+            "vsscanf",
+            "vsscanf_s",
+            "vswscanf",
+            "vswscanf_s",
+            "vwscanf",
+            "vwscanf_s"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not function_call.return_value_checked()",
+            "Medium":"not function_call.return_value_checked(param_count - 2)",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Possible Dangling Pointer",
+        "function_names":[
+            "free",
+            "operator delete"
+        ],
+        "wrappers":true,
+        "mark_if":{
+            "High":"False",
+            "Medium":"False",
+            "Low": "not param[0].set_to_null_after_call()"
+        }
+    },
+    {
+        "name": "Possible Null Pointer Dereference",
+        "function_names":[
+            "malloc"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[0].is_constant() and not function_call.return_value_checked()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Memory Leak",
+        "function_names":[
+            "write"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[2].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    },
+    {
+        "name": "Comparison with Dynamic Count",
+        "function_names":[
+            "strncmp",
+            "memcmp"
+        ],
+        "wrappers":false,
+        "mark_if":{
+            "High":"not param[2].is_constant()",
+            "Medium":"False",
+            "Low": "False"
+        }
+    }
+]

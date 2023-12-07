@@ -17,8 +17,18 @@
 
 
 ## todo
-- 1.初步扫描，存在的危险函数窗口列表（UI）（TargetFuncFinder :  analyze_dangerous_functions_in_binary）
+-√ 1.初步扫描，存在的危险函数窗口列表（UI）（TargetFuncFinder :  analyze_dangerous_functions_in_binary） √
 - 2.点击危险函数，获得所有相关危险函数的调用链（TargetFuncChain：get_function_call_chains）
 - 3.点击对应的调用链条，可以显示链条中每个函数节点（和1相同的UI，换成对应函数链条）
 - 4-1.可以点击对应的函数链条可以进入对应函数的伪代码窗口，esc键可以返回上一级。
 - 4-2.右键点击，菜单栏可以对节点进行相关标注，如果设置为clean则算法会把相关的调用链都去除。
+
+UI：
+
+
+## other
+### vulFi
+参考UI设计思路
+
+### Gepetto
+参考Chatgpt的设计思路方案，通过GPT进行智能支持。
