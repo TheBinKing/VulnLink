@@ -32,3 +32,8 @@ UI：
 
 ### Gepetto
 参考Chatgpt的设计思路方案，通过GPT进行智能支持。
+
+
+
+## 使用说明书
+search -> vulnLink 这些和Vulfi类似，得到Vulnlink result 窗口， 右键选择'get all call chains for function', 来到新窗口，Vulnlink call chains results, 这里展示所有调用链，两条调用链用空行分开，注意这只是一个临时窗口，仅用于用户选择进入不同的调用链，左键双击可进入单调用链窗口，右键选择clean this chain, 仅清除当前链，选择clean all chains contains this node, 清除所有包含该函数节点的调用链
