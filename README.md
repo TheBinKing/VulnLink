@@ -1,39 +1,56 @@
-# VulnLink
+<h1 align="center">VulnLink</h1>
 
-## TargetFuncFinder.py
-```
-    json_file_path = r'C:\Users\TheBinKing\Desktop\GIT\VulnLink\function_content.json'
-    target_result,target_result_record = analyze_dangerous_functions_in_binary(json_file_path)
-    print(target_result_record)  
-```
+<p align="center">
+  <img src="./docs/pic/vulnlink.png" width="100">
+</p>
 
-核心功能：根据危险函数规则，去搜索二进制中出现的危险函数，可以通过规则的键，去控制寻找的危险函数类，从而后续影响链条属性。
+VulnLink is a binary analysis tool specifically designed for security researchers and developers, with a focus on identifying and analyzing dangerous functions within binary files. Utilizing a set of predefined rules, VulnLink starts by pinpointing dangerous functions, extracting them along with their hazardous call chains from the binaries. Through further analysis of these functions, it determines the scope of dangerous chains, aiding in the analysis of potential vulnerabilities. This approach enables a targeted and efficient assessment of security risks present in binary files.
 
+## Features
 
-## TargetFuncChain.py
-核心功能：
-1.根据危险函数的函数名，去构造调用链条（get_function_call_chains）
-2.根据两条链（输入污点扩散链以及危险链）构建连接关系（connect_chains）
+- **Dangerous Function Identification:** Leveraging `TargetFuncFinder.py`, VulnLink scans binary files to locate dangerous functions based on customizable rules. This aids in pinpointing vulnerabilities that could be exploited.
+- **Call Chain Construction:** With `TargetFuncChain.py`, users can construct and analyze function call chains, enabling a comprehensive view of how dangerous functions interact within the binary.
+- **Intuitive User Interface:** VulnLink provides a user-friendly interface, making it easier for users to navigate through dangerous function windows, call chains, and more.
+- **Advanced Analysis Tools:** Features include viewing all related dangerous function call chains, displaying function nodes within a chain, entering pseudocode windows for in-depth function analysis, and annotating nodes to refine analysis results.
 
+## Getting Started
 
-## todo
--√ 1.初步扫描，存在的危险函数窗口列表（UI）（TargetFuncFinder :  analyze_dangerous_functions_in_binary） √
-- 2.点击危险函数，获得所有相关危险函数的调用链（TargetFuncChain：get_function_call_chains）
-- 3.点击对应的调用链条，可以显示链条中每个函数节点（和1相同的UI，换成对应函数链条）
-- 4-1.可以点击对应的函数链条可以进入对应函数的伪代码窗口，esc键可以返回上一级。
-- 4-2.右键点击，菜单栏可以对节点进行相关标注，如果设置为clean则算法会把相关的调用链都去除。
+1. **Installation:** Clone the VulnLink repository from GitHub to your local machine. Ensure you have Python installed to run the scripts.
+2. **Initial Configuration:** 请你将VulnLink文件夹下的文件都放置在IDA安装路径中的plugins文件夹内
+3. **Basic Usage Workflow:**
+   - Start by using `TargetFuncFinder.py` to perform an initial scan for dangerous functions.
+   - Use the right-click menu to 'get all call chains for a function', leading to a new window showcasing all related call chains.
+   - Explore call chains by double-clicking to enter a single call chain window or right-clicking to clean specific chains or nodes.
 
-UI：
+## Feature Demonstrations
+1.Scanning for Dangerous Functions in Binaries
+![](./docs/pic/scan.gif)
 
+2.Analyzing Related Call Chains of Dangerous Functions
+![](./docs/pic/checkcite.gif)
 
-## other
-### vulFi
-参考UI设计思路
+## Core Components
 
-### Gepetto
-参考Chatgpt的设计思路方案，通过GPT进行智能支持。
+### TargetFuncFinder.py
+This script is the gateway to identifying dangerous functions within binaries. By adjusting rules, users can tailor the search to specific types of vulnerabilities.
 
+### TargetFuncChain.py
+Focuses on the construction and analysis of call chains, enabling users to understand the relationships and flows between dangerous functions and potential taint spreads.
 
+## Completed Milestones
 
-## 使用说明书
-search -> vulnLink 这些和Vulfi类似，得到Vulnlink result 窗口， 右键选择'get all call chains for function', 来到新窗口，Vulnlink call chains results, 这里展示所有调用链，两条调用链用空行分开，注意这只是一个临时窗口，仅用于用户选择进入不同的调用链，左键双击可进入单调用链窗口，右键选择clean this chain, 仅清除当前链，选择clean all chains contains this node, 清除所有包含该函数节点的调用链
+- [√] Initial scanning for dangerous functions.
+- [√] Retrieval of all related dangerous function call chains.
+- [√] Display of function nodes within chains and navigation to pseudocode windows for detailed analysis.
+- [√] Annotation and cleaning functionalities for nodes within the call chains.
+- [ ] Integrated Large Language Model (LM) support for in-depth function analysis.
+- [ ] Aiming to utilize LM analysis for filtering and dissecting dangerous functions, focusing on isolating hazardous call chains.
+- [ ] Working towards integrating taint analysis to refine parameter transmission and purification processes for more precise vulnerability assessment.
+## Additional Resources
+
+- **[vulFi](https://github.com/Accenture/VulFi):** Inspiration for UI design, providing insights into effective layout and user interaction strategies.
+- **[Gepetto](https://github.com/JusticeRage/Gepetto):** Borrowing from ChatGPT's design philosophies for intelligent support, offering a more intuitive and responsive user experience.
+
+## Next Steps and Contributions
+
+The current version has established a basic framework, and we are actively working on further developing the taint engine and incorporating support for large language models. The existing code is still in its preliminary stages, and we warmly welcome everyone to test, provide feedback, report issues, and contribute to the codebase. Your contributions are highly appreciated as we strive to enhance the tool's capabilities and reliability.

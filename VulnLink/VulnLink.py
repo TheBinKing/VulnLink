@@ -259,6 +259,7 @@ class VulnLinkScanner:
     def start_scan(self):
         ida_kernwin.show_wait_box("VulnLink scan running ... ")
         rules_file_path = os.path.join(os.path.abspath(__file__), "..", self.rules_file)
+        ida_kernwin.show_wait_box("rule path :  ",rules_file_path)
         target_result, target_result_record = analyze_dangerous_functions_in_binary(rules_file_path)
         ida_kernwin.hide_wait_box()
         res = []

@@ -56,6 +56,6 @@ def analyze_dangerous_functions_in_binary(json_file_path, name="dangerous_functi
     return target_result,target_result_record
 
 if __name__ == "__main__":
-    json_file_path = r'C:\Users\TheBinKing\Desktop\GIT\VulnLink\function_content.json'
+    json_file_path = r''
     target_result,target_result_record = analyze_dangerous_functions_in_binary(json_file_path)
     print(target_result_record)  

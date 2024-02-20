@@ -182,7 +182,7 @@ def main():
     connected_chains = connect_chains(sink_chains, dangerous_chains)
 
     # 设置输出文件路径
-    output_file_path = r'C:\Users\TheBinKing\Desktop\GIT\VulnLink\output\connected_chains.txt'
+    output_file_path = r''
 
     # 将结果写入文件
     with open(output_file_path, 'w') as file:
