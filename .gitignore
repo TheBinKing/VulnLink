@@ -1,2 +1,3 @@
-/other/
-/__pycache__/
+other/
+.vscode/
+__pycache__/
