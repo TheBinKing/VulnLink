@@ -16,7 +16,7 @@ VulnLink is a binary analysis tool specifically designed for security researcher
 ## Getting Started
 
 1. **Installation:** Clone the VulnLink repository from GitHub to your local machine. Ensure you have Python installed to run the scripts.
-2. **Initial Configuration:** 请你将VulnLink文件夹下的文件都放置在IDA安装路径中的plugins文件夹内
+2. **Initial Configuration:** Please place all the files in the VulnLink folder in the `plugins` folder in the IDA installation path.
 3. **Basic Usage Workflow:**
    - Start by using `TargetFuncFinder.py` to perform an initial scan for dangerous functions.
    - Use the right-click menu to 'get all call chains for a function', leading to a new window showcasing all related call chains.
