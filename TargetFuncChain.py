@@ -54,6 +54,7 @@ def get_function_call_chains_before(json_file_path):
     dangerous_functions, _ = TargetFuncFinder.analyze_dangerous_functions_in_binary(json_file_path,name="dangerous_functions")
     call_chain_results=analyze_dangerous_functions(dangerous_functions)
     return call_chain_results
+
 def get_function_call_chains(func_name):
     def analyze_function0(func_name, call_chain=None, depth=0, stop_function_names=None):
         if stop_function_names is None:

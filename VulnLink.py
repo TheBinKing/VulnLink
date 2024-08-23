@@ -1,22 +1,17 @@
-from ast import expr_context
 from cmath import exp
 import collections
 from email.policy import default
 from uuid import RESERVED_FUTURE
 import idaapi
 import idc
-import ida_ua
 import os
 import json
 import idautils
 import ida_kernwin
-import ida_name
-import ida_hexrays
-import ida_funcs
-import traceback
 
 from TargetFuncFinder import analyze_dangerous_functions_in_binary
 from TargetFuncChain import get_function_call_chains
+from util import *
 
 
 
@@ -58,7 +53,7 @@ class utils:
         else:
             return [name[1:],f".{name[1:]}",f"_{name[1:]}"]
         
-        
+# implement the ui of VulnLikn Call chains Results       
 class VulnLink_Single_Function(idaapi.action_handler_t):
     result_window_title = "VulnLink Call Chain Results"
     result_window_columns_names = ["FuncName","FuncAddr", "ChainNo"]
@@ -77,11 +72,17 @@ class VulnLink_Single_Function(idaapi.action_handler_t):
         if not function_name:
             function_name = idc.get_name(self.function_ea)
         
+        explorer = HexRaysCodeXplorer()
         chains = get_function_call_chains(function_name)
         rows = []
+        f = open("output.txt", "w")
         for i, chain in enumerate(chains):
+            f.write("chain {} start\n".format(i))
             for func in chain:
                 rows.append([func[0], str(func[1]), str(i)])
+                f.write("{}, {}\n".format(func[0], func[1]))
+                f.write("assemply_code: {}\n".format(explorer.get_function_asm_code(func[1])))
+                f.write("pseudo_code: {}\n".format(explorer.get_function_pseudocode(func[1])))
             rows.append(['', '', ''])
             
         # Construct and show the form
@@ -94,7 +95,7 @@ class VulnLink_Single_Function(idaapi.action_handler_t):
         return idaapi.AST_ENABLE_ALWAYS
     
     
-
+# implement form of single call chain results
 class VulnLinkCallChainsEmbeddedChooser(ida_kernwin.Choose):
     titles = ["FuncName","FuncAddr", "Status", "Priority","Comment"]
     result_window_row = collections.namedtuple("VulnLinkCallChainResultRow",titles)
@@ -152,7 +153,7 @@ class VulnLinkCallChainsEmbeddedChooser(ida_kernwin.Choose):
             self.Refresh()
             return None
          
-        
+# # implement ui of single call chain results 
 class VulnLinkCallChainEmbeddedChooser(ida_kernwin.Choose):
     def __init__(self,title,columns,items,icon,chains, chainNo, embedded=False):
         ida_kernwin.Choose.__init__(self,title,columns,embedded=embedded,width=100,flags=ida_kernwin.Choose.CH_MULTI + ida_kernwin.Choose.CH_CAN_REFRESH)
