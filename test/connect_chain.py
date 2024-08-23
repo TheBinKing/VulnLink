@@ -7,8 +7,8 @@ def read_chains_from_file(file_path):
 
 def main():
     # 读取两个文件中的调用链
-    dangerous_chains_file = r'C:\Users\TheBinKing\Desktop\GIT\VulnLink\test\connect_chain\dangerous_chains.txt'  # 替换为实际文件路径
-    sink_chains_file  = r'C:\Users\TheBinKing\Desktop\GIT\VulnLink\test\connect_chain\sink_chains.txt'  # 替换为实际文件路径
+    dangerous_chains_file = r''  # 替换为实际文件路径
+    sink_chains_file  = r''  # 替换为实际文件路径
 
     sink_chains = read_chains_from_file(sink_chains_file)
     dangerous_chains = read_chains_from_file(dangerous_chains_file)
