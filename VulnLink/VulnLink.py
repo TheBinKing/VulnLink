@@ -76,17 +76,49 @@ class VulnLink_Single_Function(idaapi.action_handler_t):
         chains = get_function_call_chains(function_name)
         rows = []
         f = open("output.txt", "w")
+        chain_score = {}
+        all_rows = []
+        # 两步交互获取所有调用链的危险系数和危险描述
         for i, chain in enumerate(chains):
             f.write("chain {} start\n".format(i))
+            call_chains = []
+            func_infos = []
+            rows = []
             for func in chain:
-                rows.append([func[0], str(func[1]), str(i)])
+                rows.append([func[0], str(func[1]), i])
                 f.write("{}, {}\n".format(func[0], func[1]))
-                f.write("assemply_code: {}\n".format(explorer.get_function_asm_code(func[1])))
-                f.write("pseudo_code: {}\n".format(explorer.get_function_pseudocode(func[1])))
-            rows.append(['', '', ''])
+                assembly_code = explorer.get_function_asm_code(func[1])
+                f.write("assemply_code: {}\n".format(assembly_code))
+                pseudo_code = explorer.get_function_pseudocode(func[1])
+                f.write("pseudo_code: {}\n".format(pseudo_code))
+                # 根据汇编码和伪代码获取函数基本信息
+                func_info = get_function_signature(func[0], assembly_code, pseudo_code)
+                f.write("func_info: {}\n".format(func_info))
+                call_chains.append(func[1])
+                func_infos.append(func_info)
             
+            f.write("call_chains: {}\n".format(call_chains))
+            f.write("func_infos: {}\n".format(func_infos))
+            # 根据调用链上各个函数的基本信息获取调用链的危险系数和危险描述
+            score, desc = get_call_chain_danger_score(call_chains, func_infos)
+            f.write("score={}, desc={}\n".format(score, desc))
+            rows.append(["score={}".format(score), '', ''])
+            rows.append(["desc={}".format(desc), '', ''])   
+            all_rows.append(rows)
+            chain_score[i] = score
+            
+        # 按危险系数从高到低排序
+        all_rows = sorted(all_rows, key=lambda rows: -chain_score[rows[0][2]])
         # Construct and show the form
-        results_window = VulnLinkCallChainsEmbeddedChooser(self.result_window_title,self.result_window_columns,rows,icon_id, chains)
+        items = []
+        for i, rows in enumerate(all_rows):
+            for row in rows:
+                new_row = []
+                for each in row:
+                    new_row.append(str(each))
+                items.append(new_row)
+            items.append(['', '', ''])
+        results_window = VulnLinkCallChainsEmbeddedChooser(self.result_window_title,self.result_window_columns,items,icon_id, all_rows)
         results_window.Show()
         hooks.set_chains_chooser(results_window)
 
@@ -116,12 +148,15 @@ class VulnLinkCallChainsEmbeddedChooser(ida_kernwin.Choose):
         self.Refresh()
 
     def OnRefresh(self, n):
-        rows = []
-        for i, chain in enumerate(self.chains):
-            for func in chain:
-                rows.append([func[0], str(func[1]), str(i)])
-            rows.append(['', '', ''])
-        self.items = rows
+        items = []
+        for i, rows in enumerate(self.chains):
+            for row in rows:
+                new_row = []
+                for each in row:
+                    new_row.append(str(each))
+                items.append(new_row)
+            items.append(['', '', ''])
+        self.items = items
 
     def OnGetSize(self):
         return len(self.items)
@@ -260,7 +295,6 @@ class VulnLinkScanner:
     def start_scan(self):
         ida_kernwin.show_wait_box("VulnLink scan running ... ")
         rules_file_path = os.path.join(os.path.abspath(__file__), "..", self.rules_file)
-        ida_kernwin.show_wait_box("rule path :  ",rules_file_path)
         target_result, target_result_record = analyze_dangerous_functions_in_binary(rules_file_path)
         ida_kernwin.hide_wait_box()
         res = []
